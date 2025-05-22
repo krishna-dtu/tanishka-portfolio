@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tanishka's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <div id="lock-overlay">
+    <div class="lock-content">
+      <i class="fas fa-lock fa-3x lock-icon"></i>
+      <div class="typing-text" id="typing-text"></div>
+      <button id="enter-btn" style="display:none;">Enter Site</button>
+    </div>
+  </div>
+
+  <div class="background-animation"></div>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <header>
+    <div class="header-content">
+      <div class="header-text">
+        <h1 data-text="Tanishka Gupta">Tanishka Gupta</h1>
+        <p class="subtitle">Web Developer | Code Enthusiast | Tech Visionary</p>
+      </div>
+      <div class="profile-pic-container">
+        <img src="tanishka.png" alt="Tanishka" class="profile-pic">
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="fade-up">
+      <h2>About Me</h2>
+      <p>I am a confident and determined individual with a deep passion for electronics, social impact, and
+        entrepreneurship. I thrive on creating technology-driven solutions that address real-world problems,
+        particularly in underserved areas. With a strong sense of purpose and a commitment to innovation, I aim to build
+        scalable, cost-effective systems that drive meaningful change.</p>
+    </section>
+    <section id="education" class="fade-up">
+      <h2>Education</h2>
+      <div class="education-container">
+        <!-- Card 1: B.Tech -->
+        <div class="edu-flip-card">
+          <div class="edu-flip-inner">
+            <div class="edu-flip-front">
+              <i class="fas fa-university fa-2x"></i>
+              <h3>B.Tech in Electronics & Communication</h3>
+              <p>Delhi Technological University</p>
+              <span>2024 – 2028</span>
+            </div>
+            <div class="edu-flip-back">
+              <h4>Key Highlights</h4>
+              <ul>
+                <li>CGPA: 8.7/10</li>
+                <li>Core projects in Embedded, VLSI, IoT</li>
+                <li>Active in technical societies</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Card 2: 12th -->
+        <div class="edu-flip-card">
+          <div class="edu-flip-inner">
+            <div class="edu-flip-front">
+              <i class="fas fa-school fa-2x"></i>
+              <h3>Senior Secondary (XII)</h3>
+              <p>ABC Public School</p>
+              <span>2020 – 2021</span>
+            </div>
+            <div class="edu-flip-back">
+              <h4>Key Highlights</h4>
+              <ul>
+                <li>Percentage: 94%</li>
+                <li>PCM + Computer Science</li>
+                <li>School Science Club President</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Card 3: 10th -->
+        <div class="edu-flip-card">
+          <div class="edu-flip-inner">
+            <div class="edu-flip-front">
+              <i class="fas fa-graduation-cap fa-2x"></i>
+              <h3>Secondary (X)</h3>
+              <p>ABC Public School</p>
+              <span>2018 – 2019</span>
+            </div>
+            <div class="edu-flip-back">
+              <h4>Key Highlights</h4>
+              <ul>
+                <li>Percentage: 95%</li>
+                <li>Science Olympiad Winner</li>
+                <li>Debate & Quiz Team</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="fade-up">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <span class="skill-title"><i class="fas fa-microchip"></i> Embedded Systems</span>
+          <div class="progress-bar">
+            <div class="progress" style="--progress: 90%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-title"><i class="fas fa-microchip"></i> Microcontrollers (8051, AVR, ARM, Arduino)</span>
+          <div class="progress-bar">
+            <div class="progress" style="--progress: 85%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-title"><i class="fas fa-bolt"></i> Digital & Analog Electronics</span>
+          <div class="progress-bar">
+            <div class="progress" style="--progress: 80%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-title"><i class="fas fa-satellite-dish"></i> Communication Systems</span>
+          <div class="progress-bar">
+            <div class="progress" style="--progress: 75%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-title"><i class="fas fa-code"></i> C/C++ & Embedded C</span>
+          <div class="progress-bar">
+            <div class="progress" style="--progress: 85%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-title"><i class="fas fa-microchip"></i> VLSI & Verilog HDL</span>
+          <div class="progress-bar">
+            <div class="progress" style="--progress: 70%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-title"><i class="fas fa-network-wired"></i> PCB Design (Eagle, Altium)</span>
+          <div class="progress-bar">
+            <div class="progress" style="--progress: 75%"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <span class="skill-title"><i class="fas fa-tools"></i> MATLAB & Simulink</span>
+          <div class="progress-bar">
+            <div class="progress" style="--progress: 60%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="fade-up">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="image1.png" alt="load nhi ho rha">
+          <h3>Portfolio website</h3>
+          <p>Created a fully responsive personal portfolio using HTML, CSS, and JavaScript to showcase projects, skills,
+            and achievements with a clean and user-friendly design.</p>
+        </div>
+        <div class="project-card">
+          <h3>Resume Maker App</h3>
+          <p>A user-friendly web app that allows users to create professional resumes instantly with customizable
+            templates and easy input forms.</p>
+        </div>
+        <div class="project-card">
+          <h3>Hazard Flasher for Two Wheeler</h3>
+          <p>Designed and implemented a hazard flasher system for two-wheelers using a microcontroller to enhance rider
+            safety during breakdowns or emergencies.</p>
+        </div>
+        <div class="project-card">
+          <h3>RC Car</h3>
+          <p>Built a remote-controlled car using basic electronics and motor control circuits, enabling wireless
+            navigation and maneuvering.</p>
+        </div>
+        <!-- Add more project-card divs as needed -->
+      </div>
+    </section>
+
+    <section id="contact" class="fade-up">
+      <h2>Contact</h2>
+      <form class="contact-form" autocomplete="off">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+        <div class="form-status"></div>
+      </form>
+    </section>
+
+  </main>
+  <footer>
+    <div class="social-media">
+      <a href="https://github.com/tanishka-0608" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/tanishka-gupta-818866320/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/tanishkaa_.gupta/?hl=en" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+    <p>&copy; 2025 Tanishka Gupta</p>
+  </footer>
+
+  <a href="tanishka_resume.pdf" class="floating-resume-btn" download target="_blank" title="Download Resume">
+    <i class="fas fa-file-download"></i> Resume
+  </a>
+
+  <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", function () {
+      new cursoreffects.fairyDustCursor({ colors: ["#ff003c", "#fff", "#c00"] }); // Use your theme colors
+    });
+  </script>
+
+  <div class="cursor-effect"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
